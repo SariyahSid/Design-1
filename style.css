@@ -5,7 +5,7 @@
 
 .intro{
      
-    background:url('/Design1/images/sean-pollock-PhYq704ffdA-unsplash.jpg') no-repeat center center/cover;
+    background:url('/images/sean-pollock-PhYq704ffdA-unsplash.jpg') no-repeat center center/cover;
     top: 0;
     left: 0;
    
@@ -27,21 +27,21 @@
 }
 
 .info2{  
-    background:url('/Design1/images/lycs-architecture-aKij95Mmus8-unsplash.jpg') no-repeat center center/cover; 
+    background:url('/images/lycs-architecture-aKij95Mmus8-unsplash.jpg') no-repeat center center/cover; 
    
 }
 .clients{  
-    background:url('/Design1/images/yann-maignan-rRiAzFkJPMo-unsplash.jpg') no-repeat center center/cover; 
+    background:url('/images/yann-maignan-rRiAzFkJPMo-unsplash.jpg') no-repeat center center/cover; 
     z-index: -1;
     opacity: .90;
 }
 .Branch{  
-    background:url('/Design1/images/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg') no-repeat center center/cover; 
+    background:url('/images/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg') no-repeat center center/cover; 
     z-index: -1;
     opacity: .90;
 }
 .contact{  
-    background:url('/Design1/images/verne-ho-0LAJfSNa-xQ-unsplash.jpg') no-repeat center center/cover; 
+    background:url('/images/verne-ho-0LAJfSNa-xQ-unsplash.jpg') no-repeat center center/cover; 
     
 }
 .radius{
