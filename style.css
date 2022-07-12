@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.intro{
+     
+    background:url('/Design1/images/sean-pollock-PhYq704ffdA-unsplash.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+   
+}
+.card{
+    
+   
+    background-color: rgba(133, 121, 121, 0.5);
+}
+
+
+#button{
+    border-radius: 30px;
+}
+
+.info1{
+   
+    background-image: linear-gradient(to right, white , rgb(119, 184, 194));   
+}
+
+.info2{  
+    background:url('/Design1/images/lycs-architecture-aKij95Mmus8-unsplash.jpg') no-repeat center center/cover; 
+   
+}
+.clients{  
+    background:url('/Design1/images/yann-maignan-rRiAzFkJPMo-unsplash.jpg') no-repeat center center/cover; 
+    z-index: -1;
+    opacity: .90;
+}
+.Branch{  
+    background:url('/Design1/images/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg') no-repeat center center/cover; 
+    z-index: -1;
+    opacity: .90;
+}
+.contact{  
+    background:url('/Design1/images/verne-ho-0LAJfSNa-xQ-unsplash.jpg') no-repeat center center/cover; 
+    
+}
+.radius{
+    box-shadow: 0 25px 50px rgba(64, 62, 62, 0.2); 
+    border-radius: 30px;
+}
+.info1-container{  
+    
+    background-color: rgba(240, 231, 231, 0.3);
+}
+.info2-element{
+    background-color: rgba(64, 60, 60, 0.2);
+    box-shadow: 0 25px 50px rgba(64, 62, 62, 0.2); 
+}
+#button:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+footer{
+    background-color: rgb(26, 26, 44);
+}
