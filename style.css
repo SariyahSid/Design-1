@@ -2,11 +2,27 @@
     margin: 0%;
     padding: 0%;
 }
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 
-.intro{
+.navbar{
+    background-color: rgba(240, 248, 255, 0.3);
+}
+
+
+.navbar-buttons{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+}
+.layover{ min-height: 100vh;}
+.one{
      
     background:url('https://sariyahsid.github.io/Design-1/images/sean-pollock-PhYq704ffdA-unsplash.jpg') no-repeat center center/cover;
-    top: 0;
+   
+    top:0;
     left: 0;
    
 }
