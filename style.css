@@ -22,9 +22,62 @@
      
     background:url('https://sariyahsid.github.io/Design-1/images/sean-pollock-PhYq704ffdA-unsplash.jpg') no-repeat center center/cover;
    
-    top:0;
-    left: 0;
-   
+    
+}
+.card-wrapper{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    backdrop-filter: blur(3.5px);
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 30px;
+    padding: 6rem 3rem;
+    margin: 0;
+    overflow: visible;
+    position: relative;
+    justify-content: center;
+}
+.card-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+@media only screen and (max-width: 768px){
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+    }
+    .img-size{height: 50vh;
+    width: auto;}
+    .center{
+        display: inline-block;
+        text-align: center;
+        
+        margin-bottom:1vh ;
+    }
+    .img-size1{height: 30vh;
+        width: auto;  
+    }
+    .sec5{
+        display: flex;
+        flex-direction: column;
+    }
+    .c-align{
+        text-align: center;
+    }
 }
 .card{
     
@@ -79,3 +132,39 @@
 footer{
     background-color: rgb(26, 26, 44);
 }
+
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    transition: .5s ease;
+    position: absolute;
+    bottom:0;
+    left: 48%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    
+}
+.icons {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    bottom:0;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  .thumbnail:hover .icons {
+    opacity: 1;
+  }
+  .thumbnail:hover .caption{
+    bottom:10%
+
+  }
