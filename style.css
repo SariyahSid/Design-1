@@ -1,13 +1,19 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'Lexend', sans-serif; 
+    line-height: 1.5;
+    
+   
 }
 *, ::after, ::before {
     box-sizing: border-box;
 }
 
 .navbar{
-    background-color: rgba(240, 248, 255, 0.3);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
+    backdrop-filter: blur(3.5px);
+    color:rgb(38, 51, 68);
 }
 
 
@@ -19,11 +25,13 @@
 }
 .layover{ min-height: 100vh;}
 .one{
-     
+    color:rgb(38, 51, 68);  
+    font-size: 1.2rem;   
     background:url('https://sariyahsid.github.io/Design-1/images/sean-pollock-PhYq704ffdA-unsplash.jpg') no-repeat center center/cover;
    
     
 }
+
 .card-wrapper{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.6) 100%);
     backdrop-filter: blur(3.5px);
@@ -34,6 +42,7 @@
     overflow: visible;
     position: relative;
     justify-content: center;
+    
 }
 .card-wrapper:before {
     content: '';
@@ -79,11 +88,7 @@
         text-align: center;
     }
 }
-.card{
-    
-   
-    background-color: rgba(133, 121, 121, 0.5);
-}
+
 
 
 #button{
